@@ -1,10 +1,17 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>My Times</title>
-<link href="./css/index.css" type="text/css" rel="stylesheet">
-</head>
-<body>
-
-</body>
-</html>
+.header{
+	display: flex;
+	font-family: Verdana;
+	font-size: 14px,
+	font-weight: bold;
+}
+.logo{
+	display: flex,
+}
+.title{
+	color: MediumAquamarine;
+	display: flex;
+	justify-content: flex-start;
+}
+.nav{
+justify-content: flex-end;
+}
