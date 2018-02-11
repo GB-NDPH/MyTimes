@@ -1,3 +1,5 @@
+/* header */
+
 header {
   display: flex;
   align-items: center;
@@ -37,4 +39,32 @@ nav {
 	align-items: center;
 	padding: 20px 10px;
 	padding-right: 40px;
+}
+
+/* main container large */
+
+.column .large{
+  display: flex,
+  align-items: left;
+  border: 2px;
+  border-color: black;
+  width: 630px;
+  position: relative;
+  top: 50px;
+  left: 0px;
+  border: 2px;
+}
+
+/* main container medium */
+
+.column .medium{
+  display: flex;
+  width: 300px;
+}
+
+/* main container small */
+
+.column .small{
+  display: flex;
+  width: 240px;
 }
