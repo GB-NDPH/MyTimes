@@ -1,3 +1,10 @@
+/* whole page */
+body{
+  font-family: Verdana
+  color: black;
+  background-color: white;
+}
+
 /* header */
 
 header {
@@ -60,11 +67,13 @@ nav {
 .column .medium{
   display: flex;
   width: 300px;
+  align-items: center;
 }
 
 /* main container small */
 
 .column .small{
   display: flex;
+  align-items: flex-end;
   width: 240px;
 }
