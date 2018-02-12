@@ -54,6 +54,8 @@ nav {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
+  position: relative;
+  top: 75px;
   }
 
 /* common to all flex-items in flexcontainer */
@@ -61,7 +63,7 @@ nav {
 .flex-item{
   border-style: solid;
   border-width: thin;
-  border-color: red;
+  border-color: black;
   padding: 5px;
   text-align: left;
 }
@@ -69,8 +71,17 @@ nav {
 /* main container large */
 
 .left{
-  display: flex,
+  display: flex;
   width: 630px;
+}
+ .tuna{
+  display: flex;
+  background-image: url("./resources/img-story-main.png");
+  width: 630px;
+  margin-top: 0;
+  text-align: left;
+  font-size: 40px;
+  font-weight: bold;
   }
 
 /* main container medium */
