@@ -48,32 +48,41 @@ nav {
 	padding-right: 40px;
 }
 
+/* flex container */
+
+.flexcontainer{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  }
+
+/* common to all flex-items in flexcontainer */
+
+.flex-item{
+  border-style: solid;
+  border-width: thin;
+  border-color: red;
+  padding: 5px;
+  text-align: left;
+}
+
 /* main container large */
 
-.column .large{
+.left{
   display: flex,
-  align-items: left;
-  border: 2px;
-  border-color: black;
   width: 630px;
-  position: relative;
-  top: 50px;
-  left: 0px;
-  border: 2px;
-}
+  }
 
 /* main container medium */
 
-.column .medium{
+.middle{
   display: flex;
   width: 300px;
-  align-items: center;
 }
 
-/* main container small */
+/* main container right */
 
-.column .small{
+.right{
   display: flex;
-  align-items: flex-end;
   width: 240px;
 }
