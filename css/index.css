@@ -74,14 +74,16 @@ nav {
   display: flex;
   width: 630px;
 }
- .tuna{
+ .flex-item .tuna{
   display: flex;
-  background-image: url("./resources/img-story-main.png");
+  background-image: url("./../resources/img-story-main.png");
   width: 630px;
   margin-top: 0;
   text-align: left;
   font-size: 40px;
   font-weight: bold;
+  color: white;
+  background-color: red;
   }
 
 /* main container medium */
