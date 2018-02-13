@@ -73,24 +73,65 @@ nav {
 .left{
   display: flex;
   width: 630px;
+  margin-right: 20px;
 }
- .flex-item .tuna{
+ .tuna{
   display: flex;
+flex-direction: column;
+  align-items: center;
   background-image: url("./../resources/img-story-main.png");
   width: 630px;
+  height: 300px;
   margin-top: 0;
   text-align: left;
+  font-family: Georgia;
   font-size: 40px;
   font-weight: bold;
   color: white;
   background-color: red;
   }
+  .valley{
+    color: black;
+    font-family: Georgia;
+    font-size: 17px;
+  }
+  .earth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    background-image: url("./../resources/img-story-2.png");
+    font-family: Georgia;
+    font-size: 30px;
+    color: white;
+  }
+  .cameras{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    background-image: url("./../resources/img-story-3.png");
+    font-family: Georgia;
+    font-size: 30px;
+    color: white;
+  }
+
 
 /* main container medium */
 
 .middle{
   display: flex;
   width: 300px;
+}
+.cats{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+  background-image: url("./../resources/img-story-1.png");
+  font-family: Georgia;
+  font-size: 30px;
+  color: white;
 }
 
 /* main container right */
