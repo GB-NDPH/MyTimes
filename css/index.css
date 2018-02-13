@@ -2,6 +2,7 @@
 body{
   font-family: Verdana
   color: black;
+  font-size: 17px;
   background-color: white;
 }
 
@@ -14,6 +15,7 @@ header {
   z-index: 1;
   width: 100%;
   height: 80px;
+  border-top: 0;
   border-bottom: 1px solid black;
   background-color: white;
   font-family: "Verdana", sans-serif;
@@ -61,23 +63,34 @@ nav {
 /* common to all flex-items in flexcontainer */
 
 .flex-item{
-  border-style: solid;
-  border-width: thin;
-  border-color: black;
   padding: 5px;
   text-align: left;
 }
-.story .earth .cameras{
+
+.left{
   display: flex;
-  justify-content:flex-start;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 300px;
 }
 
 /* main container large */
 
 .left{
   display: flex;
+  flex-direction: column;
   width: 630px;
-  margin-right: 20px;
+  padding-right: 40px;
+  border-top: 75px;
+}
+.left .orca{
+  height: 250px;
 }
  .tuna{
   display: flex;
@@ -103,7 +116,7 @@ flex-direction: column;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 300px;
+    height: 240px;
     background-image: url("./../resources/img-story-2.png");
     font-family: Georgia;
     font-size: 30px;
@@ -113,7 +126,7 @@ flex-direction: column;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 300px;
+    height: 240px;
     background-image: url("./../resources/img-story-3.png");
     font-family: Georgia;
     font-size: 30px;
@@ -132,6 +145,7 @@ flex-direction: column;
   flex-direction: column;
   align-items: center;
   height: 300px;
+  width: 300px;
   background-image: url("./../resources/img-story-1.png");
   font-family: Georgia;
   font-size: 30px;
