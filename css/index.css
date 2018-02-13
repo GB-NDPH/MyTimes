@@ -54,10 +54,12 @@ nav {
 
 .flexcontainer{
   display: flex;
+  width: 1232px;
   align-items: flex-start;
   justify-content: flex-start;
   position: relative;
-  top: 75px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
   }
 
 /* common to all flex-items in flexcontainer */
@@ -89,7 +91,7 @@ nav {
   padding-right: 40px;
   border-top: 75px;
 }
-.left .orca{
+.left .orca .burger{
   height: 250px;
 }
  .tuna{
@@ -105,12 +107,16 @@ flex-direction: column;
   font-size: 40px;
   font-weight: bold;
   color: white;
-  background-color: red;
   }
   .valley{
     color: black;
     font-family: Georgia;
     font-size: 17px;
+  }
+  .stories{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   .earth{
     display: flex;
