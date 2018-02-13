@@ -67,6 +67,10 @@ nav {
   padding: 5px;
   text-align: left;
 }
+.story .earth .cameras{
+  display: flex;
+  justify-content:flex-start;
+}
 
 /* main container large */
 
